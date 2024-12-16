@@ -24,19 +24,17 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Step 1- install a protocal analyzer/packet sniffer (wireshark).this will allow us to examine the activity thats happening on the network interface card. Basically this will let us see all the activity that is happening with our human eyes
 
-- Step 2
+- Step 2- Filter for ICMP traffic, this is what Ping uses to test connectivity between two devices. we do this because there is too much observable traffic, and if e dont filter it we could miss it with all the other data being sent.
 - Step 3
 - Step 4
 
 <h2>Actions and Observations</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+![image](https://github.com/user-attachments/assets/794a50c7-d95b-4dfb-b0ad-5910df7a02ac)
+installing wireshark will allow us to see the Traffic/activity happening between our 2 VM's
+
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
