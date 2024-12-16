@@ -22,7 +22,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
+- Step 1- install a protocal analyzer/packet sniffer (wireshark).this will allow us to examine the activity thats happening on the network interface card. Basically this will let us see all the activity that is happening with our human eyes
+
 - Step 2
 - Step 3
 - Step 4
