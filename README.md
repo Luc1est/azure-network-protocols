@@ -28,7 +28,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Step 3- Retrieve the private IP address of the Ubuntu VM (linux-vm) and attempt to ping it from within the Windows 10 VM
 
-- Step 4
+- Step 4- use Power shell to attempt to ping the private IP Address
+
+- Step 5- if you were successful congragualations,you are now seeing replies from the private IP address of the Linux VM, if you did not get this result i advise you to doule check your work.
 
 <h2>Actions and Observations</h2>
 
@@ -43,4 +45,13 @@ go to the search bar and Type in ICMP, this will filter only PING Traffic and ma
 
 
 ![image](https://github.com/user-attachments/assets/7620901d-e6d4-4150-b8b4-bcae798a2135)
-Head to your Linux VM that we already setup and copy the Private IP Address. once you have done this Open powershell.
+Head to your Linux VM that we already setup and copy the Private IP Address. once you have done this Open powershell in your windows VM
+
+
+![image](https://github.com/user-attachments/assets/6a87c91c-f6c5-43f2-90df-25c8ca06c7b9)
+once in power shell we will attempt to ping the Private IP address of our linux VM and observe the traffic going between them.Remember... Ping is ICMP traffic and that is what we filtered for
+
+
+![image](https://github.com/user-attachments/assets/9fb52ce5-e5bc-4fb6-b1d4-618da73c81c3)
+if everyting was done correctly you should be getting replies from the private IP address indicating you have successfully made two end point connections using Ping
+
